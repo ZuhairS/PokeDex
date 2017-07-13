@@ -1,5 +1,7 @@
-import {values} from "lodash";
+import { values } from "lodash";
 
-export const selectAllPokemon = ({pokemon}) => (
+const selectAllPokemon = ({pokemon}) => (
   values(pokemon)
 );
+
+export default selectAllPokemon;
