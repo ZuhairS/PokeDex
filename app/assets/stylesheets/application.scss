@@ -102,3 +102,30 @@ h3 {
   text-align: center;
   color: $black;
 }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: $black;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.pokedex {  
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.selectedPokemon {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.selectedPokemon img {
+  border: 1px solid black;
+  margin: 0 auto;
+}

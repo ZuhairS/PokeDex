@@ -4,7 +4,7 @@ import { requestAllPokemon } from '../../actions/pokemon_actions';
 import PokemonIndex from './pokemon_index';
 
 const mapStateToProps = (state) => ({
-  pokemon: selectAllPokemon(state)
+  pokemon: selectAllPokemon(state.pokemon.entities)
 });
 
 const mapDispatchToProps = (dispatch) => ({
